@@ -1,0 +1,1 @@
+ffmpeg -i "https://icecast.gwes-eas.network/ERN-JON" -f s16le -acodec pcm_s16le -ar 22050 -ac 1 - 2>NUL | decoder -r 22050
